@@ -1,8 +1,8 @@
 <template>
   <nav>
-    <div>
+    <!-- <div>
       <img class="logo" alt="yimi´s logo" src="..\src\assets\logo.png" />
-    </div>
+    </div> -->
 
     <div>
       <router-link to="/">Home</router-link> |
@@ -15,6 +15,8 @@
 </template>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,7 +27,7 @@
   /* font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Kaushan Script", cursive;
   /* text-align: center; */
   /* color: #2c3e50; */
 }
